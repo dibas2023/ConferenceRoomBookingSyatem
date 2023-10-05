@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body, h2, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #edeff8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    height: 30px;  
+}
+.Left h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.login a {
+  text-decoration: none;
+  background-color: #0e0624; 
+  color: #fff; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 780px;
+  font-family: 'Roboto', sans-serif;
+}
+.login a:hover {
+  background-color: #0d180e;
+}
+.signup a {
+  text-decoration: none;
+  background-color: #0e0624; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.signup a:hover {
+  background-color: #060e07; 
+}
+
+.form{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        
+      }
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 10px);
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height:45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+  .user-details .input-box input:hover
+  {
+    border-color: #2586c7;
+  }
+  
+   form .button{
+     height: 50px;
+     margin: 35px;
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fdf1f1;
+     font-size: 18px;
+     font-weight:500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     background: linear-gradient(135deg, #230d46, #4e046b);
+   }
+   form .button input:hover{
+    background: linear-gradient(-135deg, #626c72, #054c68);
+    }
+    .error{
+      color: red;
+    }
+    
+    .logcontainer {
+        max-width: 500px;
+        max-height: 300px;
+        width: 100%;
+        margin: 0 auto;
+        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .logcontainer .title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .logcontainer .log-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logcontainer .loginput-box {
+        margin-bottom: 15px;
+    }
+
+    .logcontainer .loginput-box label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .logcontainer .loginput-box input[type="email"],
+    .logcontainer .loginput-box input[type="password"] {
+    height:45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    }
+    .logcontainer .logerror {
+        color: #ff0000;
+    }
+    .logcontainer .logbutton input[type="submit"] {
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fdf1f1;
+     font-size: 18px;
+     font-weight:500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     background: linear-gradient(135deg, #230d46, #4e046b);
+     margin-left: 10px;
+    }
+
+    .logcontainer .logbutton input[type="submit"]:hover {
+        background-color: #0056b3;
+    }

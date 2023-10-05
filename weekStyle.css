@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.head {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.Left h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+ .Right  {
+    text-decoration: none;
+    color: #eef2f3;
+    margin-left: 50%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logout a {
+    text-decoration: none;
+    background-color: #070b44;
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+}
+.logout a:hover {
+    background-color: #1a1514; 
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+.datecontainer {
+    max-height: 400px;
+    max-width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #71b7e6, #131341);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+.datesection{
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+form {
+    margin-top: 10px;
+} 
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #191c1f, #320d41);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.slotButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.bookmodal{
+    background: linear-gradient(135deg, #a4caf0, #0dadec);
+}
+.errordiv {
+    background-color: #FF5733; 
+    padding: 10px; 
+    border: 1px solid #FF0000; 
+    border-radius: 5px; 
+    text-align: center;
+    margin-top: 10px; 
+
+}
+
+.alertmsg {
+    color: #FFFFFF; 
+    font-weight: bold; 
+}
+    .tableBody {
+        max-width: 100vw;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .tableBody th, .tableBody td {
+        border: 1px solid #055326;
+        padding: 8px;
+        text-align: left;
+    }
+    .headingTime{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tableBody th {
+        background-color: #252a4b;
+        color: #71b7e6;
+    }
+    .tableBody td{
+        background-color: #8e99e2;
+    }
+
+
+
+    .slotButton {
+        text-align: center;
+    }
+
+    .slotButton button {
+        padding: 5px 10px;
+        margin: 2px;
+        border: none;
+        cursor: pointer;
+        height: 30px;
+
+
+    }
+
+    .slotButton button.normal {
+        background-color:#0e2c3a;
+        color: #fff;
+    }
+
+    .slotButton button.danger {
+        background-color: #dc3545;
+        color: #fff;
+    }
+    .cheacktime[disabled] {
+        background-color: #ccc;
+        color: #666; 
+        cursor: not-allowed; 
+        opacity: 0.6; 
+    }
+
